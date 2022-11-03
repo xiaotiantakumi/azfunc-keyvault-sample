@@ -13,5 +13,5 @@
       "name": "res"
     }
   ],
-  "scriptFile": "../dist/SampleTrigger/index.js"
+  "scriptFile": "../dist/KeyVaultSample1/index.js"
 }
