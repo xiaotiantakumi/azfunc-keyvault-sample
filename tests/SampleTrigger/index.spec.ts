@@ -1,4 +1,4 @@
-import httpTrigger from "../../SampleTrigger/index";
+import httpTrigger from "../../KeyVaultSample1/index";
 import { mock } from "jest-mock-extended";
 import { Context } from "@azure/functions";
 
