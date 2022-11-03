@@ -6,7 +6,7 @@ const httpTrigger: AzureFunction = async function (
 ): Promise<void> {
   const secret = process.env.KEY_VAULT_SECRET;
   context.res = {
-    // status: 200, /* Defaults to 200 */
+    status: 200, /* Defaults to 200 */
     body: secret,
   };
 };
